@@ -21,3 +21,4 @@ use \app\Http\Controllers\UserController;
 
 
 Route::post('/users',[UserController::class,'register']);
+Route::post('/users/login',[UserController::class,'login']);
